@@ -8,27 +8,54 @@
     <title>Design Your Own Framework</title>
   </head>
   <body class="wrapper main">
-    <div class="container_12 header section">Header</div>
+    <div class="container_12 header section">
+      <p>Header: <code>class = "container_12"</code></p>
+    </div>
     <div class="main-container">
-      <div class="container_2 sidebar section">Sidebar</div>
-      <div class="container_8 main-content section">Main Content</div>
-      <div class="container_2 aside section">Aside</div>
-      <div class="container_2 aside section">Aside</div>
+      <div class="container_2 sidebar section">
+        <p>Sidebar: <code>class = "container_2"</code></p>
+      </div>
+      <div class="container_8 main-content section">
+        <p>Main Content: <code>class = "container_8"</code></p>
+      </div>
+      <div class="container_2 aside section">
+        <p>Aside: <code>class = "container_2</code></p>
+      </div>
+      <div class="container_2 aside section">
+        <p>Aside: <code>class = "container_2</code></p>
+      </div>
     </div>
-    <div class="container_12 footer section">Footer</div>
-    <div class="overlay">
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
-      <div class="column container_1"></div>
+    <div class="container_12 footer section">
+      <p>Footer: <code>class = "container_12</code></p>
     </div>
+    <div class="overlay" id="overlay">
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+      <div class="container_1 column"></div>
+    </div>
+
+    <button class="toggle" onclick="toggleGrid()" id="toggle">Toggle Grid Off</button>
+    <script>
+      function toggleGrid() {
+        var x = document.getElementById("overlay");
+        var y = document.getElementById("toggle");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          y.innerHTML = "Toggle Grid Off";
+        } else {
+          y.innerHTML = "Toggle Grid On";
+          x.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>

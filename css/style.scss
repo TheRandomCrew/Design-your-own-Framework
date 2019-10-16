@@ -1,8 +1,5 @@
 @import "reset";
-@import "global";
 @import "grid";
-
-
 
 .main {
   height: 100vh;
@@ -26,42 +23,67 @@
   display: flex;
   justify-content: center;
   align-items: center;
- 
   margin-bottom: 15px;
+  flex-wrap: wrap;
+
+  & > h1 {
+    display: block;
+  }
 }
 
 .header {
-  background-color: green;  
+  background-color: green;
   height: 10vh;
   color: white;
+  padding: 20px;
 }
 
 .sidebar {
   background-color: blue;
   height: calc(100% - 30px);
   color: white;
+  padding: 20px;
 }
 
 .main-content {
   background-color: red;
   color: white;
   height: calc(100% - 30px);
+  padding: 20px;
 }
 
 .aside {
   background-color: yellow;
   color: black;
   height: calc(50% - 23px);
+  padding: 20px;
 }
 
 .footer {
   background-color: orangered;
-  color: black;
+  color: white;
   height: 10vh;
   margin-bottom: 0;
+  padding: 20px;
 }
 
 .main-container {
   height: 80vh;
-  
+}
+
+@media only screen and (min-width: 760px) {
+  .toggle {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 50%;
+    cursor: pointer;
+    padding: 5px;
+
+    &:hover {
+      background-color: blanchedalmond;
+      color: rgb(54, 54, 54);
+      border: 1px solid hotpink;
+    }
+  }
 }
