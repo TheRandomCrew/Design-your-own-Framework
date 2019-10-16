@@ -1,0 +1,192 @@
+body {
+  line-height: 1;
+  min-width: 1140px;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
+}
+
+.container_1,
+.container_2,
+.container_3,
+.container_4,
+.container_5,
+.container_6,
+.container_7,
+.container_8,
+.container_9,
+.container_10,
+.container_11,
+.container_12 {
+  display: flex;
+  float: left;
+  position: relative;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+}
+
+.push_1,
+.pull_1,
+.push_2,
+.pull_2,
+.push_3,
+.pull_3,
+.push_4,
+.pull_4,
+.push_5,
+.pull_5,
+.push_6,
+.pull_6,
+.push_7,
+.pull_7,
+.push_8,
+.pull_8,
+.push_9,
+.pull_9,
+.push_10,
+.pull_10,
+.push_11,
+.pull_11,
+.pull_12,
+.push_12 {
+  position: relative;
+}
+
+.wrapper .container_1 {
+  width: 80px;
+}
+
+.wrapper .container_2 {
+  width: 175px;
+}
+
+.wrapper .container_3 {
+  width: 270px;
+}
+
+.wrapper .container_4 {
+  width: 365px;
+}
+
+.wrapper .container_5 {
+  width: 460px;
+}
+
+.wrapper .container_6 {
+  width: 555px;
+}
+
+.wrapper .container_7 {
+  width: 650px;
+}
+
+.wrapper .container_8 {
+  width: 745px;
+}
+
+.wrapper .container_9 {
+  width: 840px;
+}
+
+.wrapper .container_10 {
+  width: 935px;
+}
+
+.wrapper .container_11 {
+  width: 1030px;
+}
+
+.wrapper .container_12 {
+  width: 1125px;
+}
+
+.wrapper .push_1 {
+  left: 95px;
+}
+
+.wrapper .push_2 {
+  left: 190px;
+}
+
+.wrapper .push_3 {
+  left: 285px;
+}
+
+.wrapper .push_4 {
+  left: 380px;
+}
+
+.wrapper .push_5 {
+  left: 475px;
+}
+
+.wrapper .push_6 {
+  left: 570px;
+}
+
+.wrapper .push_7 {
+  left: 665px;
+}
+
+.wrapper .push_8 {
+  left: 760px;
+}
+
+.wrapper .push_9 {
+  left: 855px;
+}
+
+.wrapper .push_10 {
+  left: 950px;
+}
+
+.wrapper .push_11 {
+  left: 1045px;
+}
+
+.wrapper .pull_1 {
+  left: -95px;
+}
+
+.wrapper .pull_2 {
+  left: -190px;
+}
+
+.wrapper .pull_3 {
+  left: -285px;
+}
+
+.wrapper .pull_4 {
+  left: -380px;
+}
+
+.wrapper .pull_5 {
+  left: -475px;
+}
+
+.wrapper .pull_6 {
+  left: -570px;
+}
+
+.wrapper .pull_7 {
+  left: -665px;
+}
+
+.wrapper .pull_8 {
+  left: -760px;
+}
+
+.wrapper .pull_9 {
+  left: -855px;
+}
+
+.wrapper .pull_10 {
+  left: -950px;
+}
+
+.wrapper .pull_11 {
+  left: -1045px;
+}

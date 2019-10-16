@@ -43,3 +43,22 @@
         - Card
         - navbar
         - Gallery
+
+.row { # a lot of rows, use empty space
+    display: flex;
+    flex-wrap: wrap:
+
+    &__col-5 {
+        flex-basis: 50%;
+    }
+    &__col-2 {
+        flex-basis: 20%;
+    }
+
+    &__col-sm-2{
+        flex-basis: inherit;
+        //media query{
+            flex-basis: 20%
+        }
+    }
+}

@@ -1,3 +1,66 @@
 @import "reset";
 @import "global";
 @import "grid";
+
+.main {
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  height: 100%;
+}
+
+.column {
+  height: 100%;
+  background-color: rgba(127, 255, 212, 0.39);
+}
+
+.section {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: green;
+  height: 10vh;
+  color: white;
+}
+
+.sidebar {
+  background-color: blue;
+  height: 100%;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main-content {
+  background-color: red;
+  color: white;
+  height: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.aside {
+  background-color: yellow;
+  color: black;
+  height: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background-color: orange;
+  color: black;
+  height: 10vh;
+}
+
+.main-container {
+  height: 80vh;
+}
