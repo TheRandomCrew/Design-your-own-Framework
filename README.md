@@ -1,5 +1,5 @@
 # Design-your-own-Framework
-This assignment consists of building a grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.
+This assignment consists of building a grid-based framework (similar to bootstrap) that includes some basic functionality to speed up the building process of a website.
 
 # Features
 
@@ -9,7 +9,7 @@ Try the button to toggle the FUN!
 
 ## Grid system
 
-Built for column/row composition, really minimal grid system. In our opinion is a good thing to know when there are constrains using flex or grid (like coding for IE less than IE11), but a grid system dont beat `grid` ar `flexbox` (maybe mixing `grid`+`flex`+`grid system`?). On the other side it was fun to make!
+Built for column/row composition, really minimal grid system. In our opinion is a good thing to know when there are constrains using flex or grid (like coding for IE less than IE11), but a grid system dont beat `grid` or `flexbox` (maybe mixing `grid`+`flex`+`grid system`?). On the other side it was fun to make!
 
 ### Usage
 
@@ -65,11 +65,11 @@ Try to change the sizes from `760px` to `1200px` and note that the _columns_, th
 
 # Built With
 
-* Flex and floatings
+* Flex and float
 * BEM Naming convention
 * SASS precompiler
 * HTML5
-* a little of JS
+* JS (for the demo only)
 
 # Authors
 
