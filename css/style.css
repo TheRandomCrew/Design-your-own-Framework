@@ -150,12 +150,14 @@ body {
   body {
     min-width: 780px;
   }
+
   .wrapper {
     margin-left: auto;
     margin-right: auto;
     width: 780px;
     overflow: hidden;
   }
+
   .container_1,
   .container_2,
   .container_3,
@@ -175,39 +177,51 @@ body {
     margin-left: 7.5px;
     margin-right: 7.5px;
   }
+
   .wrapper .container_1 {
     width: 50px;
   }
+
   .wrapper .container_2 {
     width: 115px;
   }
+
   .wrapper .container_3 {
     width: 180px;
   }
+  
   .wrapper .container_4 {
     width: 245px;
   }
+
   .wrapper .container_5 {
     width: 310px;
   }
+
   .wrapper .container_6 {
     width: 375px;
   }
+
   .wrapper .container_7 {
     width: 440px;
   }
+
   .wrapper .container_8 {
     width: 505px;
   }
+
   .wrapper .container_9 {
     width: 570px;
   }
+
   .wrapper .container_10 {
     width: 635px;
   }
+
   .wrapper .container_11 {
     width: 700px;
   }
+
   .wrapper .container_12 {
     width: 765px;
   }
@@ -217,42 +231,55 @@ body {
   body {
     min-width: 960px;
   }
+
   .wrapper {
     width: 960px;
   }
+
   .wrapper .container_1 {
     width: 65px;
   }
+
   .wrapper .container_2 {
     width: 145px;
   }
+
   .wrapper .container_3 {
     width: 225px;
   }
+
   .wrapper .container_4 {
     width: 305px;
   }
+
   .wrapper .container_5 {
     width: 385px;
   }
+
   .wrapper .container_6 {
     width: 465px;
   }
+
   .wrapper .container_7 {
     width: 545px;
   }
+
   .wrapper .container_8 {
     width: 625px;
   }
+
   .wrapper .container_9 {
     width: 705px;
   }
+
   .wrapper .container_10 {
     width: 785px;
   }
+
   .wrapper .container_11 {
     width: 865px;
   }
+
   .wrapper .container_12 {
     width: 945px;
   }
@@ -262,9 +289,11 @@ body {
   body {
     min-width: 1140px;
   }
+
   .wrapper {
     width: 1140px;
   }
+
   .container_1,
   .container_2,
   .container_3,
@@ -284,39 +313,51 @@ body {
     margin-left: 7.5px;
     margin-right: 7.5px;
   }
+
   .wrapper .container_1 {
     width: 80px;
   }
+
   .wrapper .container_2 {
     width: 175px;
   }
+
   .wrapper .container_3 {
     width: 270px;
   }
+
   .wrapper .container_4 {
     width: 365px;
   }
+
   .wrapper .container_5 {
     width: 460px;
   }
+
   .wrapper .container_6 {
     width: 555px;
   }
+
   .wrapper .container_7 {
     width: 650px;
   }
+
   .wrapper .container_8 {
     width: 745px;
   }
+
   .wrapper .container_9 {
     width: 840px;
   }
+
   .wrapper .container_10 {
     width: 935px;
   }
+
   .wrapper .container_11 {
     width: 1030px;
   }
+  
   .wrapper .container_12 {
     width: 1125px;
   }
