@@ -189,7 +189,7 @@ body {
   .wrapper .container_3 {
     width: 180px;
   }
-  
+
   .wrapper .container_4 {
     width: 245px;
   }
@@ -357,7 +357,7 @@ body {
   .wrapper .container_11 {
     width: 1030px;
   }
-  
+
   .wrapper .container_12 {
     width: 1125px;
   }
@@ -568,6 +568,7 @@ li {
     cursor: pointer;
     padding: 5px;
   }
+
   .toggle:hover {
     background-color: blanchedalmond;
     color: #363636;
