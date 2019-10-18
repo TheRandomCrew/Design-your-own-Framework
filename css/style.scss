@@ -1,18 +1,74 @@
 @import "reset";
 @import "grid";
 
-.noGutter{
+.noGutter {
   margin: 0;
 }
 
-.fixedNavbar{
- position: fixed;
- top: 0;
+.spacer {
+  color: transparent;
+  height: 10vh;
+}
+
+.contentMargin {
+  align-items: center;
+  border: 2px solid red;
+  height: 40vh;
+}
+
+.search {
+  width: calc(60% - 90px);
+  height: 40px;
+}
+
+a {
+  color: white;
+  &::after {
+    color: white;
+  }
+}
+
+.floatRight {
+  margin-left: auto;
+  display: flex;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 15px;
+  display: flex;
+  font-size: 12px;
+}
+
+.content2 {
+  padding-top: 24px;
+}
+
+.fixedNavbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+}
+
+.icons {
+  width: 30px;
+}
+
+.icons2 {
+  padding-top: 5px;
+  width: 20px;
+}
+
+.icons3 {
+  width: 140px;
 }
 
 .main {
   height: 100vh;
-  background-color: grey;
 }
 
 .overlay {
@@ -41,10 +97,11 @@
 }
 
 .header {
-  background-color: green;
+  z-index: 1;
   height: 10vh;
   color: white;
   padding: 20px;
+  border: 2px solid green;
 }
 
 .sidebar {
@@ -54,30 +111,54 @@
   padding: 20px;
 }
 
-.main-content {
-  background-color: red;
-  color: white;
-  height: calc(100% - 30px);
-  padding: 20px;
-}
-
 .aside {
-  background-color: yellow;
-  color: black;
-  height: calc(50% - 23px);
-  padding: 20px;
+  color: white;
+  border: 2px solid rebeccapurple;
+  height: 14vh;
+  align-items: center;
 }
 
 .footer {
-  background-color: orangered;
+  background-color: rgb(56, 56, 56);
+  border: 2px solid orangered;
   color: white;
-  height: 10vh;
-  margin-bottom: 0;
-  padding: 20px;
+  height: 6vh;
+  align-items: center;
+}
+
+#sticky {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .main-container {
   height: 80vh;
+}
+
+.customButton {
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+.customButton2 {
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  width: 70px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.411);
 }
 
 @media only screen and (min-width: 760px) {
