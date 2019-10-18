@@ -1,6 +1,15 @@
 @import "reset";
 @import "grid";
 
+.noGutter{
+  margin: 0;
+}
+
+.fixedNavbar{
+ position: fixed;
+ top: 0;
+}
+
 .main {
   height: 100vh;
   background-color: grey;
