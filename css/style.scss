@@ -1,0 +1,180 @@
+@import "reset";
+@import "grid";
+
+.noGutter {
+  margin: 0;
+}
+
+.spacer {
+  color: transparent;
+  height: 10vh;
+}
+
+.contentMargin {
+  align-items: center;
+  border: 2px solid red;
+  height: 40vh;
+}
+
+.search {
+  width: calc(60% - 90px);
+  height: 40px;
+}
+
+a {
+  color: rgb(230, 230, 230);
+
+  &::after {
+    color: white;
+  }
+}
+
+.floatRight {
+  margin-left: auto;
+  display: flex;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 15px;
+  display: flex;
+  font-size: 12px;
+}
+
+.content2 {
+  padding-top: 24px;
+}
+
+.fixedNavbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+}
+
+.icons {
+  width: 30px;
+}
+
+.icons2 {
+  padding-top: 5px;
+  width: 20px;
+}
+
+.icons3 {
+  width: 140px;
+}
+
+.main {
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  height: 100%;
+}
+
+.column {
+  height: 100vh;
+  background-color: rgba(127, 255, 212, 0.39);
+}
+
+.section {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+
+  & > h1 {
+    display: block;
+  }
+}
+
+.header {
+  z-index: 1;
+  height: 10vh;
+  color: white;
+  padding: 20px;
+  border: 2px solid green;
+}
+
+.sidebar {
+  background-color: blue;
+  height: calc(100% - 30px);
+  color: white;
+  padding: 20px;
+}
+
+.aside {
+  color: white;
+  border: 2px solid rebeccapurple;
+  height: 14vh;
+  align-items: center;
+}
+
+.footer {
+  background-color: rgb(56, 56, 56);
+  border: 2px solid orangered;
+  color: white;
+  height: 6vh;
+  align-items: center;
+}
+
+#sticky {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.main-container {
+  height: 80vh;
+}
+
+.customButton {
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+.customButton2 {
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  width: 70px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+@media only screen and (min-width: 760px) {
+  .toggle {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 50%;
+    cursor: pointer;
+    padding: 5px;
+
+    &:hover {
+      background-color: blanchedalmond;
+      color: rgb(54, 54, 54);
+      border: 1px solid hotpink;
+    }
+  }
+}

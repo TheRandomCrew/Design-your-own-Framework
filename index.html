@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Design Your Own Framework</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="containter_12 spacer">
+        space
+      </div>
+      <div class="fixedNavbar container_12 header">
+        <ul>
+          <li><a href="">All</a></li>
+          <li><a href="">Images</a></li>
+          <li><a href="">Videos</a></li>
+          <li><a href="">Maps</a></li>
+          <li><a href="">|</a></li>
+          <li><a href="">MSN</a></li>
+          <li><a href="">Office</a></li>
+          <li><a href="">Outlook</a></li>
+        </ul>
+        <ul class="floatRight">
+          <li class="content2"><a href="">English</a></li>
+          <li class="content2"><a href="">Sign In</a></li>
+          <li>
+            <a href=""><img class="icons" src="./img/usericon.png" alt=""/></a>
+          </li>
+          <li>
+            <a href=""><img class="icons2" src="./img/menu.png" alt=""/></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container_12 contentMargin">
+        <img class="icons3" src="./img/iconfinder_bing_294660.png" alt="" />
+        <input type="search" name="Search" class="search" />
+      </div>
+      <div class="container_8 spacer">
+        space
+      </div>
+      <div class="container_8 spacer">
+        space
+      </div>
+      <div class="container_8 spacer">
+        space
+      </div>
+      <div class="container_8 spacer">
+        space
+      </div>
+      <div class="container_4 aside">
+        <div class="floatRight">
+          <div class="customButton">&#60;</div>
+          <div class="customButton">></div>
+          <div class="customButton2">info</div>
+        </div>
+      </div>
+      <div class="container_12 footer" id="sticky">
+        <ul>
+          <li><a href="">Privacy and cookies</a></li>
+          <li><a href="">Legal</a></li>
+          <li><a href="">Advertise</a></li>
+          <li><a href="">About our ads</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrapper main">
+      <div class="overlay" id="overlay">
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+        <div class="container_1 column"></div>
+      </div>
+
+      <button class="toggle" onclick="toggleGrid()" id="toggle">
+        Toggle Grid Off
+      </button>
+      <script>
+        function toggleGrid() {
+          var x = document.getElementById("overlay");
+          var y = document.getElementById("toggle");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+            y.innerHTML = "Toggle Grid Off";
+          } else {
+            y.innerHTML = "Toggle Grid On";
+            x.style.display = "none";
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>
