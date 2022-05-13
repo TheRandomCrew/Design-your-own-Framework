@@ -1,4 +1,11 @@
+<p align="center">
+  <a href="https://israel-laguan.github.io/Design-your-own-Framework">
+    <img src="https://user-images.githubusercontent.com/67714964/168319853-1b14b48c-5735-484c-88e4-3441c0f1a328.jpg" alt="Logo" width="450" height="250">
+  </a>
+</p>
+
 # Design-your-own-Framework
+
 This assignment consists of building a grid-based framework (similar to bootstrap) that includes some basic functionality to speed up the building process of a website.
 
 [Live version](https://israel-laguan.github.io/Design-your-own-Framework/)
@@ -26,9 +33,9 @@ You must have a parent with `wrapper` class, where you put elements to form a ro
 </main>
 ```
 
-You can specify the *width* of the row using a `container_<number>`, where `<number>` is an integer from _1_ to _12_. 
+You can specify the _width_ of the row using a `container_<number>`, where `<number>` is an integer from _1_ to _12_.
 
-The grid have _12_ columns, and the sum of all `<number>`s must be equal or less than _12_; Then you have made a *row*:
+The grid have _12_ columns, and the sum of all `<number>`s must be equal or less than _12_; Then you have made a _row_:
 
 ```html
 <main class="wrapper">
@@ -39,7 +46,7 @@ The grid have _12_ columns, and the sum of all `<number>`s must be equal or less
 </main>
 ```
 
-As the `container`s just make the *columns* you can add classes to style to your heart desire, thus achieving *Separation of concerns*:
+As the `container`s just make the _columns_ you can add classes to style to your heart desire, thus achieving _Separation of concerns_:
 
 ```html
 <main class="wrapper">
@@ -49,10 +56,10 @@ As the `container`s just make the *columns* you can add classes to style to your
     <!-- Your rows here -->
 </main>
 ```
+
 > Note that `element_1` have a new class called `style-me`!
 
 ```css
-
 .style-me {
   background-color: blue;
   height: 100px;
@@ -67,15 +74,15 @@ Try to change the sizes from `760px` to `1200px` and note that the _columns_, th
 
 # Built With
 
-* Flex and float
-* BEM Naming convention
-* SASS precompiler
-* HTML5
-* JS (for the demo only)
+- Flex and float
+- BEM Naming convention
+- SASS precompiler
+- HTML5
+- JS (for the demo only)
 
 # Authors
 
-* [Mario Dena](https://github.com/MarioDena).
+- [Mario Dena](https://github.com/MarioDena).
 <table style="width:100%">
   <tr>
     <td>
